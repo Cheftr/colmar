@@ -2,6 +2,7 @@
 
 .flex-container {
   display: flex;
+  width: 100%;
 }
 
 body {
@@ -39,21 +40,65 @@ body {
 /* Banner */
 
 .banner {
-  padding: 32px 24px;
+  padding: 32px 0;
   background-color: lightgray;
-  width: 100%;
 }
 
-.banner .flex-container img {
-  width: 60%;
-  height: auto;
+.banner .flex-container {
+  align-items: center;
 }
+
+.img {
+  width: 60%;
+  padding: 0 24px;
+}
+
 
 .learn {
-  text-align: left;
   display: flex;
   flex-direction: column;
-  align-items: left;
   justify-content: center;
   padding-left: 24px;
+}
+
+/* Information */
+
+.information {
+  padding: 32px 0;
+}
+
+.practice {
+  width: 60%;
+  padding: 0 24px;
+}
+
+.practice h1 {
+  padding-top: 32px;
+}
+
+.practice p {
+  padding: 24px 0;
+}
+
+.sidebar {
+  width: 40%;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.box img {
+  width: 35%;
+  height: auto;
+  padding: 16px 16px;
+}
+
+.text {
+  width: 65%;
+}
+
+.text p {
+  padding-top: 8px;
 }
