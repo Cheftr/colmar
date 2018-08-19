@@ -102,3 +102,96 @@ body {
 .text p {
   padding-top: 8px;
 }
+
+/* Start Learning */
+
+.start {
+  display: flex;
+}
+
+.start .flex-container {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 72px 32px 72px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  padding: 32px 0;
+}
+
+.course {
+  text-align: left;
+  flex-wrap: wrap;
+  width: 30%;
+}
+
+.img-container {
+  height: auto;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.course p {
+  padding-top: 8px;
+}
+
+.course h1 {
+  padding-top: 16px;
+}
+
+.course p, .course h1 {
+  padding-left: 16px;
+}
+
+/* Thesis Exhibit */
+
+.exhibit {
+  padding-bottom: 32px;
+}
+
+.main {
+  padding: 0 24px 24px 24px;
+  width: 60%;
+}
+
+.main h1, .main p {
+  width: 60%;
+}
+
+.main h1 {
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+
+.sidebar-exhibit {
+  width: 40%;
+}
+
+.fisma, .now {
+  display: flex;
+  align-items: center;
+}
+
+.fisma img, .now img {
+  width: 35%;
+  height: auto;
+  padding: 16px 16px;
+}
+
+/* Footer */
+
+footer {
+  padding: 16px 24px 64px 24px;
+}
+
+footer .flex-container {
+  justify-content: space-between;
+}
+
+.copyright {
+
+}
