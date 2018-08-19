@@ -9,6 +9,11 @@ body {
   font-family: "Bitter", serif;
 }
 
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #4d4d4d;
+}
 
 /* Header */
 
@@ -27,6 +32,13 @@ body {
   display: flex;
   align-items: center;
   height: 32px;
+  font-size: 1.5rem;
+  color: #bfbfbf;
+}
+
+.logo .name {
+  color: #404040;
+  font-weight: bold;
 }
 
 .nav ul {
@@ -35,13 +47,14 @@ body {
 
 .nav ul li {
   margin-left: 16px;
+  font-size: 1.1rem;
 }
 
 /* Banner */
 
 .banner {
   padding: 32px 0;
-  background-color: lightgray;
+  background-color: #d9d9d9;
 }
 
 .banner .flex-container {
@@ -53,12 +66,28 @@ body {
   padding: 0 24px;
 }
 
-
 .learn {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 24px;
+  color: #404040;
+}
+
+.learn h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.learn p {
+  font-size: 1.75rem;
+  padding: 16px 0;
+}
+
+.btn {
+  text-align: center;
+  color: white;
+  background-color: #404040;
 }
 
 /* Information */
@@ -70,6 +99,7 @@ body {
 .practice {
   width: 60%;
   padding: 0 24px;
+  border-right: 1px solid #e6e6e6;
 }
 
 .practice h1 {
@@ -78,6 +108,7 @@ body {
 
 .practice p {
   padding: 24px 0;
+  width: 60%;
 }
 
 .sidebar {
@@ -87,6 +118,7 @@ body {
 .box {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 .box img {
@@ -100,13 +132,14 @@ body {
 }
 
 .text p {
-  padding-top: 8px;
+  padding-top: 24px;
 }
 
 /* Start Learning */
 
 .start {
   display: flex;
+  background-color: #d9d9d9;
 }
 
 .start .flex-container {
@@ -118,13 +151,16 @@ body {
 .title {
   width: 100%;
   text-align: center;
-  padding: 32px 0;
+  padding: 64px 0;
 }
 
 .course {
   text-align: left;
   flex-wrap: wrap;
   width: 30%;
+  margin: 0 32px 32px 0;
+  padding-bottom: 24px;
+  background-color: #ffffff;
 }
 
 .img-container {
@@ -136,7 +172,7 @@ body {
 }
 
 .course p {
-  padding-top: 8px;
+  padding-top: 16px;
 }
 
 .course h1 {
@@ -163,8 +199,8 @@ body {
 }
 
 .main h1 {
-  padding-top: 24px;
-  padding-bottom: 8px;
+  padding-top: 32px;
+  padding-bottom: 16px;
 }
 
 .sidebar-exhibit {
@@ -186,6 +222,7 @@ body {
 
 footer {
   padding: 16px 24px 64px 24px;
+  border-top: 1px solid #e6e6e6;
 }
 
 footer .flex-container {
