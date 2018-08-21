@@ -51,21 +51,8 @@ h1 {
   font-size: 1.1rem;
 }
 
-.mobile-header {
+.mobile-head {
   display: none;
-}
-
-@media only screen and (max-width: 640px) {
-  .header .flex-container {
-    display: none;
-  }
-  .mobile-header {
-    justify-content: space-around;
-    align-items: center;
-  }
-  .img {
-    width: 100%;
-  }
 }
 
 /* Banner */
@@ -247,6 +234,27 @@ footer .flex-container {
   justify-content: space-between;
 }
 
-.copyright {
+/* Media Queries */
 
+@media only screen and (max-width: 640px) {
+  .header {
+    display: none;
+  }
+  .mobile-head {
+    width: auto;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile-head .flex-container {
+    justify-content: space-around;
+    align-items: center;
+  }
+  .img img {
+    width: 100%;
+  }
+  .banner .flex-container {
+    flex-direction: column;
+  }
 }
