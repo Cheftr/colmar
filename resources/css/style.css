@@ -246,7 +246,7 @@ footer .flex-container {
 
 @media only screen and (max-width: 640px) {
   /* Header */
-  .header {
+  .header, .practice, .course, .box img, .sidebar-exhibit, .main h1, .main p, .terms {
     display: none;
   }
   .mobile-head {
@@ -267,12 +267,6 @@ footer .flex-container {
   .banner .flex-container {
     flex-direction: column;
   }
-  .practice {
-    display: none;
-  }
-  .box img {
-    display: none;
-  }
   .sidebar {
     width: 100%;
   }
@@ -284,11 +278,21 @@ footer .flex-container {
     width: 100%;
   }
   /* Start Learning */
-  .course {
-    display: none;
-  }
+
   .mobile-crs {
     display: flex;
     flex-direction: column;
+  }
+
+  /* Thesis Exhibit */
+
+  .main {
+    width: 100%;
+  }
+
+  /* Footer */
+
+  .copyright {
+    font-size: 0.75rem;
   }
 }
