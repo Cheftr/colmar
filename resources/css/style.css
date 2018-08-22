@@ -7,7 +7,7 @@
 
 body {
   font-family: "Bitter", serif;
-  overflow: hidden;
+  width: 100%;
 }
 
 h1 {
@@ -132,6 +132,10 @@ h1 {
   padding: 16px 16px;
 }
 
+.mobile-image {
+  display: none;
+}
+
 .text {
   width: 65%;
 }
@@ -188,6 +192,10 @@ h1 {
   padding-left: 16px;
 }
 
+.mobile-crs {
+  display: none;
+}
+
 /* Thesis Exhibit */
 
 .exhibit {
@@ -237,6 +245,7 @@ footer .flex-container {
 /* Media Queries */
 
 @media only screen and (max-width: 640px) {
+  /* Header */
   .header {
     display: none;
   }
@@ -254,7 +263,32 @@ footer .flex-container {
   .img img {
     width: 100%;
   }
+  /* Banner */
   .banner .flex-container {
+    flex-direction: column;
+  }
+  .practice {
+    display: none;
+  }
+  .box img {
+    display: none;
+  }
+  .sidebar {
+    width: 100%;
+  }
+  .mobile-image {
+    display: block;
+    width: 100%;
+  }
+  .mobile-image img {
+    width: 100%;
+  }
+  /* Start Learning */
+  .course {
+    display: none;
+  }
+  .mobile-crs {
+    display: flex;
     flex-direction: column;
   }
 }
